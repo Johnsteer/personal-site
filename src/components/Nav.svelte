@@ -1,7 +1,8 @@
 <script>
-    let selectedItem = 0;
+    import { g_selectedItem } from "./store.js"; 
+    $: selectedItem = $g_selectedItem;
     function handleClick(index) {
-        selectedItem = index;
+        g_selectedItem.set(index);
     }
 </script>
 
@@ -31,6 +32,7 @@
 
     .item.selected {
         background-color: dimgrey;
+        color:white;
     }
 
 

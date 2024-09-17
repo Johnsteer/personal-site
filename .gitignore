@@ -1,5 +1,8 @@
 node_modules
 
+# Ignore backend
+/backend
+
 # Ignore all image files
 **/*.jpg
 **/*.jpeg

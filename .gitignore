@@ -9,6 +9,7 @@ node_modules
 **/*.tiff
 **/*.ico
 **/*.svg
+
 # Output
 .output
 .vercel
